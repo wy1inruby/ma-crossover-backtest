@@ -1,5 +1,5 @@
 """
-均线策略回测 —— 第一个量化小项目
+均线策略回测 
 Moving Average Crossover Backtest
 
 策略：短期均线（20 日）上穿长期均线（60 日）时买入持有，下穿时卖出空仓。
@@ -12,7 +12,7 @@ import yfinance as yf
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# ========== 第 1 步：参数（可以自己改着玩）==========
+# ========== 第 1 步：参数==================
 TICKER = "002028.SZ"     # 思源电气（深交所 002028）。深市加 .SZ，沪市加 .SS
 START = "2018-01-01"
 END = "2025-12-31"
